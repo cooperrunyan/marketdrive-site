@@ -1,5 +1,6 @@
 :root {
   --black: #242424;
+  --opaque-black: #242424b3;
   --grey: #2b2b2b;
   --primary: #4ad4c1;
   --opaque-primary: #4ad4c226;
@@ -10,6 +11,14 @@
   --margin: calc(64rem / 16);
   --nav-height: calc(80rem / 16);
   --section-gap: calc(128rem / 16);
+
+  @media (max-width: calc(900em / 16)) {
+    --margin: calc(32rem / 16);
+  }
+
+  @media (max-width: calc(480em / 16)) {
+    --margin: calc(16rem / 16);
+  }
 }
 
 *,

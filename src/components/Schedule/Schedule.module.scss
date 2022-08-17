@@ -2,6 +2,10 @@
   .row {
     display: flex;
     gap: calc(12rem / 16);
+
+    @media (max-width: calc(480rem / 16)) {
+      flex-direction: column;
+    }
   }
 
   form {

@@ -2,8 +2,13 @@
   .content {
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     gap: calc(24rem / 16);
     padding: calc(10rem / 16) calc(32rem / 16) calc(32rem / 16) calc(32rem / 16);
+
+    @media (max-width: calc(480rem / 16)) {
+      padding: 0;
+    }
   }
 
   .dock {
@@ -16,6 +21,10 @@
     border-radius: calc(4rem / 16);
     background-color: var(--grey);
     user-select: none;
+
+    @media (max-width: calc(480rem / 16)) {
+      display: none;
+    }
   }
 
   .Card {
@@ -30,7 +39,7 @@
     border: calc(3rem / 16) solid var(--primary);
     border-radius: calc(4rem / 16);
 
-    flex: 1 1 30%;
+    flex: 1 1 calc(250rem / 16);
 
     p {
       font-weight: 500;

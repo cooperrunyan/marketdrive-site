@@ -10,9 +10,14 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  z-index: 10;
+  background-color: var(--opaque-black);
+  backdrop-filter: blur(12px);
+  padding-inline: var(--margin);
 }
 
 .contact {
+  text-decoration: none;
   padding: calc(12rem / 16) calc(24rem / 16);
   border-radius: calc(4rem / 16);
   border: calc(2rem / 16) solid var(--primary);

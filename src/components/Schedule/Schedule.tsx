@@ -2,7 +2,7 @@ import style from './Schedule.module.scss';
 
 export const Schedule: React.FC = () => {
   return (
-    <section className={style.Schedule}>
+    <section className={style.Schedule} id="schedule">
       <h2>Schedule a Demo</h2>
       <form>
         <div className={style.row}>
