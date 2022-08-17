@@ -1,0 +1,32 @@
+.Nav {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  height: calc(80rem / 16);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.contact {
+  padding: calc(12rem / 16) calc(24rem / 16);
+  border-radius: calc(4rem / 16);
+  border: calc(2rem / 16) solid var(--primary);
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: calc(19rem / 16);
+  letter-spacing: -0.03em;
+  background: transparent;
+  outline: none !important;
+  color: var(--white);
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+
+  &:hover {
+    background-color: var(--opaque-primary);
+  }
+}
