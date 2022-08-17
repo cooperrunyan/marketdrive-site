@@ -9,6 +9,7 @@
   --max-width: calc(1128em / 16);
   --margin: calc(64rem / 16);
   --nav-height: calc(80rem / 16);
+  --section-gap: calc(128rem / 16);
 }
 
 *,
@@ -39,4 +40,24 @@ html {
   max-width: var(--max-width);
   width: 100%;
   margin: 0 auto;
+}
+
+section {
+  padding-inline: var(--margin);
+  margin-block: calc(var(--section-gap) / 2);
+}
+
+h2,
+h3 {
+  font-weight: 600;
+  font-size: calc(48rem / 16);
+  line-height: 125%;
+  letter-spacing: -0.05em;
+  color: var(--dark-white);
+  margin-bottom: calc(32rem / 16);
+}
+
+h3 {
+  font-size: calc(32rem / 16);
+  margin-bottom: 0;
 }
