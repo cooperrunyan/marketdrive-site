@@ -7,6 +7,8 @@
   --dark-white: #ffffffcc;
 
   --max-width: calc(1128em / 16);
+  --margin: calc(64rem / 16);
+  --nav-height: calc(80rem / 16);
 }
 
 *,
@@ -33,6 +35,7 @@ html {
 }
 
 .App {
+  padding-top: var(--nav-height);
   max-width: var(--max-width);
   width: 100%;
   margin: 0 auto;

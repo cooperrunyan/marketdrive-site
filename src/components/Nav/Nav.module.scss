@@ -6,7 +6,7 @@
   width: 100%;
   max-width: var(--max-width);
   margin: 0 auto;
-  height: calc(80rem / 16);
+  height: var(--nav-height);
   display: flex;
   align-items: center;
   justify-content: flex-end;
