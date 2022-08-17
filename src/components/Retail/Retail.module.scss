@@ -1,0 +1,21 @@
+.Retail {
+  ul {
+    max-width: calc(560rem / 16);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: var(--dark-white);
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-left: 24px;
+
+    li {
+      span {
+        font-weight: 600;
+        color: var(--white);
+      }
+    }
+  }
+}
