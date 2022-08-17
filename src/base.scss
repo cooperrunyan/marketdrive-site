@@ -1,0 +1,30 @@
+:root {
+  --black: #242424;
+  --grey: #2b2b2b;
+  --primary: #4ad4c1;
+  --white: #fff;
+  --dark-white: #ffffffcc;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 100vw;
+}
