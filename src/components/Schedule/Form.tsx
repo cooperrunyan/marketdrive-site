@@ -41,7 +41,7 @@ export const Form: React.FC = () => {
     if (!(firstname && lastname && mobile && title && email && company && emailRegex.test(email))) return;
 
     axios
-      .post('https://getstatements.com/api/web-to-lead/', {
+      .post('https://getstatements.com/api/web-to-lead', {
         app: 'marketdrive',
         data: { first_name: firstname, last_name: lastname, mobile, email, title, company },
       })
