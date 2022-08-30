@@ -24,7 +24,7 @@ const handler: NextApiHandler = async (req, res) => {
       let b = typeof req.body === 'object' ? req.body : JSON.parse(req.body);
 
       const r = await fetch('https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8', {
-        body: new URLSearchParams({ ...b, oid, retURL, debug: 1 }).toString(),
+        body: new URLSearchParams({ ...b, oid, retURL }).toString(),
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         method: 'POST',
       });
