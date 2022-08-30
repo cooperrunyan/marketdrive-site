@@ -1,3 +1,4 @@
+import axios from 'axios';
 import { FormEvent, useState } from 'react';
 import style from './Schedule.module.scss';
 
@@ -39,18 +40,15 @@ export const Form: React.FC = () => {
 
     if (!(firstname && lastname && mobile && title && email && company && emailRegex.test(email))) return;
 
-    fetch('https://getstatements.com/api/w2l?app=marketdrive', {
-      method: 'POST',
-      body: JSON.stringify({
+    axios
+      .post('https://getstatements.com/api/w2l?app=marketdrive', {
         first_name: firstname,
         last_name: lastname,
         mobile,
         email,
         title,
         company,
-      }),
-    })
-      .then(console.log)
+      })
       .then(reset);
   };
 
