@@ -41,22 +41,10 @@ export const Form: React.FC = () => {
     if (!(firstname && lastname && mobile && title && email && company && emailRegex.test(email))) return;
 
     axios
-      .post(
-        'https://getstatements.com/api/w2l/',
-        {
-          first_name: firstname,
-          last_name: lastname,
-          mobile,
-          email,
-          title,
-          company,
-        },
-        {
-          params: {
-            app: 'marketdrive',
-          },
-        },
-      )
+      .post('https://getstatements.com/api/w2l/', {
+        app: 'marketdrive',
+        data: { first_name: firstname, last_name: lastname, mobile, email, title, company },
+      })
       .then(reset);
   };
 
