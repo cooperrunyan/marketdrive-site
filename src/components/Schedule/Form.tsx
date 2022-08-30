@@ -50,10 +50,7 @@ export const Form: React.FC = () => {
         company,
       }),
     })
-      .catch(err => {
-        console.error(err);
-        console.dir(err);
-      })
+      .then(console.log)
       .then(reset);
   };
 
