@@ -7,7 +7,7 @@ const App = ({ Component, pageProps }: AppProps) => {
   return (
     <>
       <Head>
-        <title>Get Statements</title>
+        <title>Market Drive</title>
       </Head>
       <Component {...pageProps} />
     </>
