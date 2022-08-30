@@ -1,6 +1,6 @@
 import { NextApiHandler } from 'next';
 
-const whitelist = ['getstatements.com', 'getstatements.vercel.app'];
+const whitelist = ['marketdrive.io', 'marketdrive.vercel.app'];
 
 const handler: NextApiHandler = async (req, res) => {
   if (req.method === 'OPTIONS') return res.status(200).end();
@@ -24,7 +24,7 @@ const handler: NextApiHandler = async (req, res) => {
       let b = typeof req.body === 'object' ? req.body : JSON.parse(req.body);
 
       const r = await fetch('https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8', {
-        body: new URLSearchParams({ ...b.data, oid, retURL, debug: 1 }).toString(),
+        body: new URLSearchParams({ ...b, oid, retURL, debug: 1 }).toString(),
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         method: 'POST',
       });
