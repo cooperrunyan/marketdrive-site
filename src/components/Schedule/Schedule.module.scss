@@ -19,11 +19,16 @@
     padding: calc(12rem / 16) calc(18rem / 16);
     color: var(--white);
     font-size: 1rem;
-    outline: none !important;
     border: none;
     border-radius: calc(4rem / 16);
     width: 100%;
     background-color: var(--grey);
+    transition: all 0.1s ease-in-out;
+    outline: 2px solid transparent;
+
+    &.error {
+      outline: 2px solid rgb(253, 68, 16);
+    }
   }
 
   button {
@@ -31,7 +36,6 @@
     border: calc(2rem / 16) solid var(--primary);
     font-weight: 600;
     cursor: pointer;
-    transition: all 0.1s ease-in-out;
 
     &:hover {
       background-color: var(--opaque-primary);
