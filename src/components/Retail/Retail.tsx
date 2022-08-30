@@ -12,7 +12,7 @@ export const Retail: React.FC = () => {
           Decision-Maker <span>team management</span> with Industry Sales Channel Territory Management <span>automation</span>.
         </li>
         <li>
-          Represetntative communication <span>preference management</span> integrated to Marketing journeys and Public Website
+          Representative communication <span>preference management</span> integrated to Marketing journeys and Public Website
         </li>
       </ul>
     </section>
