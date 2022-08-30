@@ -39,7 +39,7 @@ export const Form: React.FC = () => {
 
     if (!(firstname && lastname && mobile && title && email && company && emailRegex.test(email))) return;
 
-    fetch('https://getstatements.com/api/w2l?app=marketdrive', {
+    fetch('https://cors-anywhere.herokuapp.com/https://getstatements.com/api/w2l?app=marketdrive', {
       method: 'POST',
       body: JSON.stringify({
         first_name: firstname,
