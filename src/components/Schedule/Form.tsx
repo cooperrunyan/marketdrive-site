@@ -49,7 +49,12 @@ export const Form: React.FC = () => {
         title,
         company,
       }),
-    }).then(reset);
+    })
+      .catch(err => {
+        console.error(err);
+        console.dir(err);
+      })
+      .then(reset);
   };
 
   return (
