@@ -6,9 +6,6 @@ export const Nav: React.FC = () => {
       <a href="/" className={style.link}>
         Overview
       </a>
-      <a href="/eula" className={style.link}>
-        EULA
-      </a>
       <a href="/#schedule" className={style.contact}>
         Contact Sales
       </a>

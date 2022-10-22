@@ -2,6 +2,20 @@
   padding: calc(32rem / 16) var(--margin);
   width: 100%;
   max-width: var(--max-width);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @media (max-width: calc(600em / 16)) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5em;
+  }
+
+  a {
+    color: var(--primary);
+    text-decoration: none;
+  }
 
   &Container {
     border-top: calc(1rem / 16) solid var(--grey);
