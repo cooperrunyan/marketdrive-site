@@ -56,6 +56,14 @@ section {
   margin-block: calc(var(--section-gap) / 2);
 }
 
+h1 {
+  font-weight: 600;
+  font-size: calc(64rem / 16);
+  line-height: 115%;
+  letter-spacing: -0.05em;
+  color: var(--dark-white);
+}
+
 h2,
 h3 {
   font-weight: 600;

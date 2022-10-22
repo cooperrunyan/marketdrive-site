@@ -1,0 +1,22 @@
+.Eula {
+  display: flex;
+  flex-direction: column;
+
+  * {
+    margin: 0;
+    margin-top: 1em;
+  }
+
+  a {
+    color: var(--primary);
+  }
+
+  hr {
+    margin-top: 3rem;
+    opacity: 10%;
+  }
+
+  p {
+    line-height: 1.75;
+  }
+}
