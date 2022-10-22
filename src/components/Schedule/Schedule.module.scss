@@ -1,7 +1,7 @@
 .Schedule {
   .row {
     display: flex;
-    gap: calc(12rem / 16);
+    gap: calc(6rem / 16);
 
     @media (max-width: calc(480rem / 16)) {
       flex-direction: column;
@@ -11,7 +11,7 @@
   form {
     display: flex;
     flex-direction: column;
-    gap: calc(12rem / 16);
+    gap: calc(6rem / 16);
   }
 
   input,

@@ -3,7 +3,13 @@ import style from './Nav.module.scss';
 export const Nav: React.FC = () => {
   return (
     <nav className={style.Nav}>
-      <a href="#schedule" className={style.contact}>
+      <a href="/" className={style.link}>
+        Overview
+      </a>
+      <a href="/eula" className={style.link}>
+        EULA
+      </a>
+      <a href="/#schedule" className={style.contact}>
         Contact Sales
       </a>
     </nav>

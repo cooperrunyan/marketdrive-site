@@ -5,6 +5,7 @@
   flex-direction: column;
   gap: calc(48rem / 16);
   margin-bottom: calc(var(--section-gap) / 2);
+  padding-top: calc(var(--margin) + 4em);
 
   p {
     max-width: calc(706rem / 16);
