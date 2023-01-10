@@ -1,4 +1,4 @@
-# End User Licensing Agreement (“EULA”)
+# End User Licensing Agreement
 
 This End User License Agreement (**“Agreement”**) is entered into between you
 and Market Drive, Inc. (**“Market Drive”**) regarding your access and use of the
