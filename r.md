@@ -1,8 +1,8 @@
 # End User Licensing Agreement (“EULA”)
 
-This End User License Agreement (“Agreement”) is entered into between you and
-Market Drive, Inc. (“Market Drive”) regarding your access and use of the Market
-Drive Salesforce ISV Application (the “App”).
+This End User License Agreement (**“Agreement”**) is entered into between you
+and Market Drive, Inc. (**“Market Drive”**) regarding your access and use of the
+Market Drive Salesforce ISV Application (the **“App”**).
 
 ## 1. Your Use of Market Drive
 
@@ -13,8 +13,8 @@ Salesforce account(s) (“SF Account(s)”); (B) all data collected (including u
 the App) and stored on Salesforce’s servers and otherwise associated with your
 SF Account(s); (C) adherence to the Salesforce Master Services Agreement, as
 updated from time-to-time by Salesforce and found on the Salesforce website:
-www.salesforce.com/company/legal/agreements (D) use of Salesforce and the App
-only for the purposes intended.
+[salesforce.com/company/legal/agreements](https://www.salesforce.com/company/legal/agreements)
+(D) use of Salesforce and the App only for the purposes intended.
 
 Market Drive grants you a limited, revocable, nonexclusive, non-transferable
 license to use the App (and related documentation) solely for your internal use,
@@ -75,8 +75,9 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. THESE LIMITATIONS ARE
 INDEPENDENT FROM ALL OTHER PROVISIONS OF THIS AGREEMENT AND APPLY
 NOTWITHSTANDING THE FAILURE OF ANY REMEDY PROVIDED IN THIS AGREEMENT.
 NOTWITHSTANDING ANYTHING TO THE CONTRARY IN THIS AGREEMENT, MARKET DRIVE’S
-MAXIMUM LIABILITY TO YOU UNDER THIS AGREEMENT WILL NOT EXCEED $100 IN THE
-AGGREGATE.
+AGGREGATE MAXIMUM LIABILITY TO YOU ARISING OUT OF OR RELATED TO THIS AGREEMENT
+WILL NOT EXCEED THE TOTAL AMOUNT PAID BY YOU FOR THE APP AND RELATED SERVICES IN
+THE TWELVE MONTHS PRECEDING THE FIRST INCIDENT OUT OF WHICH THE LIABILITY AROSE.
 
 ## 5. Additional Representations and Warranties
 
@@ -86,7 +87,7 @@ are solely responsible for compliance with all laws, rules and regulations
 applicable to the collection, transmission and storage of data (including
 personally-identifiable data); and (C) you have the right and proper consent to
 provide all data to Market Drive, Salesforce in connection with this Agreement.
-I F YOU ARE ACCEPTING THIS AGREEMENT ON BEHALF OF A COMPANY, ORGANIZATION,
+IF YOU ARE ACCEPTING THIS AGREEMENT ON BEHALF OF A COMPANY, ORGANIZATION,
 EDUCATIONAL INSTITUTION, OR AGENCY, INSTRUMENTALITY, OR DEPARTMENT OF A
 GOVERNMENT (AN “ENTITY”) AS ITS AUTHORIZED LEGAL REPRESENTATIVE, THEN YOU
 REPRESENT AND WARRANT THAT YOU HAVE THE POWER AND AUTHORITY TO BIND SUCH ENTITY
@@ -100,7 +101,9 @@ must not accept this Agreement and may not use the App.
 You will indemnify Market Drive against any liability, damage, loss, or expense
 (including reasonable attorneys’ fees) that Market Drive incurs based on a
 third-party claim arising from your use of the App or your breach of your
-representations, warranties, or obligations under this Agreement.
+representations, warranties, or obligations under this Agreement, _unless said
+liability, damage, loss, or expense was caused by the negligence or willful
+misconduct of Market Drive._
 
 ## 7. Confidentiality
 
@@ -134,8 +137,8 @@ parties. Each party hereby irrevocably consents to the service of process in any
 action or proceeding under the Agreement by sending copies thereof to the
 party’s address set forth in the “Notices” section. Notwithstanding the
 foregoing, Market Drive may bring a claim in any court of competent jurisdiction
-as it determines is necessary to protect its intellectual property and other
-rights in connection with the App.
+as it determines is necessary to protect its intellectual property rights in
+connection with the App.
 
 ### Notices.
 
@@ -144,8 +147,8 @@ method for which the sender has written or electronic proof of delivery to the
 other party. Notices will be considered given when delivered (as evidenced by
 delivery receipt or other documentation).
 
-If to Market Drive: By sending electronic notification to customer-
-success@marketdrive.io.
+If to Market Drive: By sending electronic notification to
+customer-success@marketdrive.io .
 
 If to you: By electronic notification to the organization with which you are
 affiliated and by which you obtained access to the App.
@@ -191,7 +194,7 @@ The term of each subscription shall be as specified in the applicable Order
 Form. Except as otherwise specified in an Order Form, subscriptions will
 automatically renew for additional periods equal to the expiring subscription
 term or one year (whichever is shorter), unless either party gives the other
-written notice **(email acceptable) at least 60 days before the end of the
+written notice **(email acceptable) at least 10 days before the end of the
 relevant subscription term.** Except as expressly provided in the applicable
 Order Form, renewal of promotional or one-time priced subscriptions will be at
 our applicable list price in effect at the time of the applicable renewal.
@@ -209,4 +212,5 @@ Salesforce) shall be deleted immediately.
 
 Within 30 days of cancellation or termination of your subscription, you are
 required to remove and delete the App, including all data contained within it,
-from your Salesforce Org. You shall reply in writing to any request that
+from your Salesforce Org. You shall reply in writing to any request that Market
+Drive sends confirming the deletion and removal of the App.
